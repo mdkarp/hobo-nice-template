@@ -356,7 +356,7 @@ div.select-many .item .remove-item { float: right; }
 .front-page .welcome-message {
 	padding: 10px 20px 20px; border: 1px solid #e8e8e8;
 	color: #222;
-	background: url(../images/50-ACD3E6-fff.png) repeat-x #fff;
+	background: none repeat scroll 0 0 #D8FFD8;
 }
 .front-page .welcome-message h2 {
 	font-size: 18px; line-height: 27px;
