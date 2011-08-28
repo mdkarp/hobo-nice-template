@@ -5,21 +5,21 @@ This plugin adds a new template called "nice" to Hobo 1.3 (http://www.hobocentra
 
 
 Requirements
-============
+------------
 
-* Rails 2.3.8
-* Hobo 1.0.1 gem
+* Rails 3.0.9
+* Hobo 1.3.0.RC2
 * Git
 
 
 Installation
-============
+------------
 
     rails plugin install git://github.com/suyccom/hobo-nice-template.git
 
 
 How to use
-==========
+----------
 
 Go to your application.dryml or front_site.dryml and change the template like this:
 
