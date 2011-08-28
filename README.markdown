@@ -12,20 +12,37 @@ Requirements
 * Git
 
 
-Installation
-------------
+How to use
+----------
+
+Install it like this:
 
     rails plugin install git://github.com/suyccom/hobo-nice-template.git
 
-
-How to use
-----------
 
 Go to your application.dryml or front_site.dryml and change the template like this:
 
     <set-theme name="nice"/>
 
-Then restart your application.    
+Then restart your application :)
+
+
+How to update
+-------------
+
+The init hook of the plugin checks for the existence of the files in taglibs and public, and it it doesn't find anything, it copies them. So to update you just have to update the repo and then remove the old files.
+
+Reinstall:
+
+    rails plugin install --force git://github.com/suyccom/hobo-nice-template.git
     
+Remove the old files:
+
+    rm app/views/taglibs/themes/nice -Rf
+    rm public/hobothemes/nice -Rf
     
+And restart the application :)
+
+
+
 Copyright (c) 2010 Ignacio Huerta (http://www.unoycero.com), released under the MIT license
