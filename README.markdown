@@ -15,14 +15,15 @@ Requirements
 Installation
 ============
 
-rails plugin install git://github.com/suyccom/hobo-nice-template.git
+    rails plugin install git://github.com/suyccom/hobo-nice-template.git
 
 
 How to use
 ==========
 
 Go to your application.dryml or front_site.dryml and change the template like this:
- <set-theme name="nice"/>
+
+    <set-theme name="nice"/>
 
 Then restart your application.    
     
