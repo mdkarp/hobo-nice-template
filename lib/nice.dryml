@@ -35,17 +35,6 @@
 </extend>
 
 
-
-<!-- Use Hobo Jquery for the default date input -->
-<def tag="input" for="Date">
-  <hjq-datepicker dayNamesMin="&['Do', 'Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa']"
-    dateFormat="dd-mm-yy" 
-    firstDay="1" 
-    monthNames="&['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']"
-    monthNamesShort="&['Ene', 'Feb', 'Mar', 'Abr','May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']"  merge />
-</def>
-
-
 <!-- Customise live-search to use a placeholder -->
 <def tag="live-search">
   <div class="search">
