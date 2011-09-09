@@ -3,6 +3,8 @@ Hobo Nice Template
 
 This plugin adds a new template called "nice" to Hobo 1.3 (http://www.hobocentral.net). It is based on the default "clean" template.
 
+[Screenshots available here](https://github.com/suyccom/hobo-nice-template/wiki)
+
 
 Requirements
 ------------
