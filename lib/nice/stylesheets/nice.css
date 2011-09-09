@@ -131,7 +131,7 @@ form .actions input { margin: 0; }
 
 .content-header, .content-body, .content-footer {margin: 0 15px 5px; padding: 0;}
 .content-header {padding: 5px 0;}
-.content-body {padding: 0 0 10px 0;}
+.content-body {padding: 0 0 10px 0; width:563px;}
 .content-footer {padding-bottom: 20px;}
 
 .page-header {margin-top: 0; padding: 0 0 0;}
@@ -422,6 +422,9 @@ a.new-link:hover, a.edit-link:hover {
 .bottom-page-nav a{
   padding:4px 6px;
   border:0;
+}
+.bottom-page-nav .current{
+  font-weight:bold;
 }
 .bottom-page-nav a:hover{
   background-color:#C9D0EE;
