@@ -47,4 +47,4 @@ And restart the application :)
 
 
 
-Copyright (c) 2010 Ignacio Huerta (http://www.unoycero.com), released under the MIT license
+Copyright (c) 2011 Ignacio Huerta (http://www.unoycero.com), released under the MIT license
